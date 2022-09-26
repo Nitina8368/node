@@ -10,5 +10,5 @@ let server = http.createServer((req,res) => {
 })
     
 server.listen(1206,() => {
-        console.log('Server Running on port 1206')
+        console.log('Server Running on port 1206, global dependencies...')
 })
